@@ -1,1 +1,1 @@
-# ai_agent
+This is an AI agent that will be made by following the steps on boot.dev, it's a learning project to familiarize with AI and LLMs
