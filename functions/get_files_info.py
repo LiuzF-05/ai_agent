@@ -2,6 +2,7 @@ import os
 
 def get_files_info(working_directory, directory=None):
     
+    #Creates the absolute file_path
     dir_path=os.path.abspath(working_directory)
 
     #Checks if there is a directory specified and sets the dir_path to its path
@@ -26,4 +27,4 @@ def get_files_info(working_directory, directory=None):
         return result
     
     except Exception as e:
-        return f'Error: listing files: {e}'
+        return f'Error: Failed listing files: {e}'

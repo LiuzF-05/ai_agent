@@ -21,4 +21,4 @@ def get_file_contents(working_directory, file_path):
                 return f'{file_content}[...File "{file_path}" truncated at 10000 characters]'
         return file_content
     except Exception as e:
-        return f'Error: reading files {e}'
+        return f'Error: Failed reading files {e}'

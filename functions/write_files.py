@@ -24,4 +24,4 @@ def write_files(working_directory, file_path, content):
 
         return f'Successfully wrote to "{file_path}" ({len(content)} characters written)'
     except Exception as e:
-        return f'Error: writing files {e}'
+        return f'Error: Failed writing files {e}'
