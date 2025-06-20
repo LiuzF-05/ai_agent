@@ -1,4 +1,3 @@
-from google import genai
 from google.genai import types
 
 #Declares the get_files_info function, passing the parameters and description to the AI

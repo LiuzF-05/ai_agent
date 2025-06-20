@@ -1,6 +1,6 @@
 import os
 
-def get_file_contents(working_directory, file_path):
+def get_file_content(working_directory, file_path):
     
     #Creates the absolute file_path
     abs_file_path=os.path.abspath(os.path.join(working_directory, file_path))

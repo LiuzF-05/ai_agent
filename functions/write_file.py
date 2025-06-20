@@ -1,6 +1,6 @@
 import os
 
-def write_files(working_directory, file_path, content):
+def write_file(working_directory, file_path, content):
 
     #Creates the absolute file_path
     abs_file_path=os.path.abspath(os.path.join(working_directory, file_path))
